@@ -6,12 +6,12 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then
 
-return "لتكلم معة مطور البوت ☬↧ معرفه @keko11keko قنات السورس /n @kekkkoo بوت التواصل /n @kekohhbot"
+return  "مطور البوت @keko11keko      قنات السورس @kekkkoo        بوت التواصل @kekohhbot"
   end
    
 end 
 
--- @illOlli
+-- @keko11keko
 
 end 
 
@@ -23,4 +23,4 @@ return {
 } 
 
 end 
--- By illOlli
+-- By keko_bot
