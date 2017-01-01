@@ -12,7 +12,7 @@ do
 
 function run(msg, matches)
 local reply_id = msg['id']
-  local S = '☬☬☬☬☬"keko__bot"☬☬☬☬☬ /n   الصدار الاول من سورس keko_bot /n D⃞E⃞: @keko11keko /n 🤖 C⃞H⃞: @kekkkoo /n https://github.com/kekobot/kekobot '
+  local S =          '☬☬☬☬ keko__bot☬☬☬              keko__bot     الصدار الاول من سورس          D⃞E⃞: @keko11keko             🤖 C⃞H⃞: @kekkkoo              https://github.com/kekobot/bot_keko       '
 reply_msg(reply_id, S, ok_cb, false)
 end
 
