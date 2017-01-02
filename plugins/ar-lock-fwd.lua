@@ -5,7 +5,7 @@ local function pre_process(msg)
     local fwd = 'mate:'..msg.to.id
     if redis:get(fwd) and not is_momod(msg) and msg.fwd_from then
             delete_msg(msg.id, ok_cb, true)
-             send_large_msg(get_receiver(msg),"سـتغفرآلله🙄🎃‏‏ جنآن هہ‏‏م دزو هہ‏‏م دزو ولگم مـتمـلون n/ لو آلله  خآلقني زآحف🐸 وآلآ هہ‏‏آيـه رآوبط n/ لگ مـتمـل🍼 يـا @"..msg.from.username)
+             send_large_msg(get_receiver(msg),"سـتغفرآلله🙄🎃‏‏ جنآن هہ‏‏م دزو هہ‏‏م دزو ولگم مـتمـلون  لو آلله  خآلقني زآحف🐸 وآلآ هہ‏‏آيـه رآوبط  لگ مـتمـل🍼 يـا @"..msg.from.username)
             return "ok"
 end
         return msg
